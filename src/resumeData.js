@@ -1,61 +1,57 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Hamdada Yacine",
-    "role": "React and Node trainer at the Wild Code School",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like to learn about new technologies, to share my knowledge and surfing in my free time",
+  "imagebaseurl":"https://media-exp1.licdn.com/dms/image/C5603AQHWTZQqE3Ijcw/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=61VlNQ2DGbwG24hYePe6Rr3hbkSSQLJkXYNQ_zSQQso",
+    "name": "Christophe TURPIN",
+    "role": "Fullstack Web and mobile web developer at the Wild Code School",
+    "linkedinId":"christophe-turpin",
+    "skypeid": "Your skour LinkedIn Idypeid",
+    "roleDescription": "I like to learn about new technologies, to share my knowledge and playing video games in my free time",
     "blockchain" :"Blockchain enthusiaste",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/christophe-turpin/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/Chris356",
           "className":"fa fa-github"
         },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
-        }
+       
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am currently a student at The Wild Code School and pursuing my certification from here.",
+    "address":"Toulouse, France",
+    "website":"daisukeleblonx@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"Wild Code School",
+        "specialization":"Fullstack Web and mobile web developer Javascript(NodeJs, ReactJs)",
+        "MonthOfPassing":"Jul",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"3 projects, 2 hackathons"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"INHNI",
+        "specialization":"Management of multiservice development",
+        "MonthOfPassing":"oct",
+        "YearOfPassing":"2013",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Wild Code School",
+        "specialization":"Fullstack Web and mobile web developer",
+        "MonthOfLeaving":"Jul",
+        "YearOfLeaving":"2020",
+        "Achievements": "Realization of a client project"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Industrial cleaning",
+        "specialization":"Manager",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"2008-2019",
+        "Achievements": "Management of cleaning services, recruitment, business relationship"
       }
     ],
     "skillsDescription":"Your skills here",
@@ -67,30 +63,30 @@ let resumeData = {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Javascript"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"WildJourney",
+        "description":"First school project created with HTML5, CSS3 & Javascript",
+        "imgurl":"https://zupimages.net/up/20/21/6cv4.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Covid Escape",
+        "description":"App react created in 24hours hackathon",
+        "imgurl":"https://zupimages.net/up/20/21/w1yb.png"
       },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
+      // {
+      //   "name":"project3",
+      //   "description":"mobileapp",  
+      //   "imgurl":"images/portfolio/project2.png"
+      // },
+      // {
+      //   "name":"project4",
+      //   "description":"mobileapp",
+      //   "imgurl":"images/portfolio/phone.jpg"
+      // }
     ],
     "testimonials":[
       {
