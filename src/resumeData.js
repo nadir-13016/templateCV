@@ -70,12 +70,14 @@ let resumeData = {
       {
         "name":"WildJourney",
         "description":"First school project created with HTML5, CSS3 & Javascript",
-        "imgurl":"https://zupimages.net/up/20/21/6cv4.png"
+        "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
+        "url": "https://chris356.github.io/WildJourney/index.html"
       },
       {
         "name":"Covid Escape",
         "description":"App react created in 24hours hackathon",
-        "imgurl":"https://zupimages.net/up/20/21/w1yb.png"
+        "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
+        "url": "https://goofy-jones-6004d7.netlify.app/"
       },
       // {
       //   "name":"project3",
