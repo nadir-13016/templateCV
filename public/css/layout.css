@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   max-height: 600px;
    min-height: 500px;
    width: 100%;
    background: #161415 url('https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2020.2F01.2F06.2Fa343e643-51cc-491b-9df1-9807b718efe1.2Ejpeg/1800x675/background-color/ffffff/quality/90/picture.jpg') top center;
