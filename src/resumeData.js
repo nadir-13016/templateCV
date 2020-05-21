@@ -54,7 +54,7 @@ let resumeData = {
         "Achievements": "Management of cleaning services, recruitment, business relationship"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Skills here",
     "skills":[
       {
         "skillname":"HTML5"
