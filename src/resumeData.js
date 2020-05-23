@@ -91,11 +91,12 @@ let resumeData = {
         "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
         "url": "https://goofy-jones-6004d7.netlify.app/"
       },
-      // {
-      //   "name":"project3",
-      //   "description":"mobileapp",  
-      //   "imgurl":"images/portfolio/project2.png"
-      // },
+      {
+        "name":"Trizz",
+        "description":"App React, using 3 apis created in one month with a 4 persons group",  
+        "imgurl":"https://zupimages.net/up/20/21/vmaa.png",
+        "url":"https://trizz.netlify.app/"
+      },
       // {
       //   "name":"project4",
       //   "description":"mobileapp",
