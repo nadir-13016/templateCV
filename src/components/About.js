@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Moi from '../images/Moi.jpeg'
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -9,7 +10,7 @@ export default class About extends Component {
 
             <div className="three columns">
 
-            <img className="profile-pic one columns" src="https://media-exp1.licdn.com/dms/image/C4D35AQFfv_ALaEceIQ/profile-framedphoto-shrink_100_100/0?e=1596812400&v=beta&t=eAT987M5W_TTgT8dJzGcMOv_2SmMxoU1iZFeX25NIb4" alt="" />
+            <img className="profile-pic one columns" src={`${Moi}`} alt="moi" />
 
             </div>
 
