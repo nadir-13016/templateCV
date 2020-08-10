@@ -17,7 +17,7 @@ export default class Porfolio extends Component {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div style={{ padding: 20, height: 500}}>
-                  <img style={{ height: 400, width: 'auto'}} src={`${item.imgurl}`} className="item-img"/>
+                  <img style={{ height: 400, width: 'auto'}} alt={item.name} src={`${item.imgurl}`} className="item-img"/>
                   <h5><a href={item.url} target='blank'>{item.name}</a></h5>
                   <p>{item.description}</p>
                 </div>

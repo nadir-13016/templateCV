@@ -1,5 +1,4 @@
-import React, { Component, useState } from 'react';
-import Particles from 'react-particles-js';
+import React, { Component } from 'react';
 import HTML5 from '../images/HTML5.png';
 import CSS3 from '../images/CSS3.png';
 import WordPress from '../images/WordPress.png';
@@ -10,7 +9,6 @@ import MySQL from '../images/MySQL.png'
 import Python from '../images/Python.png'
 import Swift from '../images/Swift.png'
 import Scrum from '../images/Scrum.png'
-import code from '../images/capture_code.png'
 
 export default  class Resume extends Component {
   constructor(props){
