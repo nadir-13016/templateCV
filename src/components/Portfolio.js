@@ -1,32 +1,30 @@
 import React, { Component } from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 export default class Porfolio extends Component {
+  
   render() {
     let resumeData = this.props.resumeData;
+    
     return (
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <h1>Un coup d'oeil sur mes réalisations.</h1>
+            <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} autoPlay={true} useKeyboardArrows={true} swipeable={true}>
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                  </div>
-                  <a href={`${item.url}`} target='_blank'>See more...</a>
+                <div style={{ padding: 20, height: 500}}>
+                  <img style={{ height: 400, width: 'auto'}} src={`${item.imgurl}`} className="item-img"/>
+                  <h5><a href={item.url} target='blank'>{item.name}</a></h5>
+                  <p>{item.description}</p>
                 </div>
               )
             })
           }
-          </div>
+          </Carousel>
         </div>
       </div>
   </section>

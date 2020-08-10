@@ -9,6 +9,115 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.malt {
+  width: 30px;
+  height: auto;
+}
+
+.skillsList{
+  width: 100%;
+  display: flex !important;
+  flex-flow: row wrap !important;
+  justify-content: center !important;
+}
+
+.skillItem{
+  min-width: 100px !important;
+  margin: 0;
+  padding: 5px;
+}
+
+.skilllogo{
+  display: flex !important;
+  flex-flow: column nowrap !important;
+  justify-content: center;
+  align-items: center;
+  min-width: 100% !important;
+  max-width: 125px;
+  height: 125px !important;
+}
+
+.HTML5 {
+  background-image: url('./images/capture_code.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.CSS3 {
+  background-image: url('./images/capture_CSS.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.JavaScript {
+  background-image: url('./images/capture_JS.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.React {
+  background-image: url('./images/capture_react.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Node {
+  background-image: url('./images/capture_node.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.MySQL {
+  background-image: url('./images/capture_mysql.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Scrum {
+  background-image: url('./images/capture_scrum.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Python {
+  background-image: url('./images/capture_python.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Swift {
+  background-image: url('./images/capture_swift.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.WordPress {
+  background-image: url('./images/capture_wordpress.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.WordPress #COMP {
+  color: aliceblue;
+}
+
+.vide{
+  background-image: url('./images/capture_blanc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HTML5 h1, .CSS3 h1, .React h1, .Node h1, .MySQL h1 {
+  color: aliceblue;
+}
+
+.bgcomp {
+  border-radius: 10%;
+  -webkit-transition-duration: 0.9s;
+  -moz-transition-duration: 0.9s;
+  transition-timing-function: ease-in-out;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

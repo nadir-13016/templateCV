@@ -1,10 +1,11 @@
+
 let resumeData = {
   "imagebaseurl":"https://media-exp1.licdn.com/dms/image/C5603AQHWTZQqE3Ijcw/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=61VlNQ2DGbwG24hYePe6Rr3hbkSSQLJkXYNQ_zSQQso",
     "name": "Christophe TURPIN",
-    "role": "Fullstack Web and mobile web developer at the Wild Code School",
+  "role": "Développeur web et mobile fullstack junior",
     "linkedinId":"christophe-turpin",
     "skypeid": "Your skour LinkedIn Idypeid",
-    "roleDescription": "I like to learn about new technologies, to share my knowledge and playing video games in my free time",
+    "roleDescription": "Présentant une certaine appétance pour le front-end je reste à l'aise en back-end et cherche surtout à monter en compétences afin de pouvoir mener un maximum de projets à leur terme",
     "blockchain" :"Blockchain enthusiaste",
     "socialLinks":[
         {
@@ -17,23 +18,28 @@ let resumeData = {
           "url":"https://github.com/Chris356",
           "className":"fa fa-github"
         },
+        {
+          "name": "malt",
+          "url": "https://www.malt.fr/profile/christopheturpin",
+          "image": "https://news.malt.com/wp-content/uploads/2018/03/malt_picto_white_bg_png.png"
+        },
        
       ],
-    "aboutme":"I am currently a student at The Wild Code School and pursuing my certification from here.",
+    "aboutme":"Je suis actuellement à la recherche d'un poste en tant que développeur web et web mobile Junior et travaille en tant que Freelance afin de gagner en expérience et en compétence.",
     "address":"Toulouse, France",
     "website":"daisukeleblonx@gmail.com",
     "education":[
       {
         "UniversityName":"Wild Code School",
-        "specialization":"Fullstack Web and mobile web developer Javascript(NodeJs, ReactJs)",
-        "MonthOfPassing":"Jul",
+        "specialization":"Développeur web et web mobile fullstack junior Javascript(NodeJs, ReactJs)",
+        "MonthOfPassing":"Juillet",
         "YearOfPassing":"2020",
-        "Achievements":"3 projects, 2 hackathons"
+        "Achievements":"3 projets, 2 hackathons"
       },
       {
         "UniversityName":"INHNI",
-        "specialization":"Management of multiservice development",
-        "MonthOfPassing":"oct",
+        "specialization":"Master de management du développement du multiservice",
+        "MonthOfPassing":"Octobre",
         "YearOfPassing":"2013",
         "Achievements":""
       }
@@ -41,59 +47,68 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Wild Code School",
-        "specialization":"Fullstack Web and mobile web developer",
-        "MonthOfLeaving":"Jul",
+        "specialization":"Développeur web et web mobile fullstack junior",
+        "MonthOfLeaving":"Juillet",
         "YearOfLeaving":"2020",
         "Achievements": "Realization of a client project"
       },
       {
-        "CompanyName":"Industrial cleaning",
+        "CompanyName":"Secteur du nettoyage industriel",
         "specialization":"Manager",
         "MonthOfLeaving":"",
         "YearOfLeaving":"2008-2019",
-        "Achievements": "Management of cleaning services, recruitment, business relationship"
+        "Achievements": "Management de contrats d'entretien, relation commerciale et managériale"
       }
     ],
-    "skillsDescription":"Skills here",
+    "skillsDescription":"Mes compétences",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5",
       },
       {
-        "skillname":"CSS3"
+        "skillname":"CSS3",
       },
       {
-        "skillname":"JavaScript"
+        "skillname":"JavaScript",
       },
       {
-        "skillname": "Wordpress"
+        "skillname": "React",
       },
       {
-        "skillname": "Python"
+        "skillname": "Node",
       },
       {
-        "skillname": "Swift"
+        "skillname": "MySQL",
       },
       {
-        "skillname": "Scrum"
-      }
+        "skillname": "Scrum",
+      },
+      {
+        "skillname": "Python",
+      },
+      {
+        "skillname": "Swift",
+      },
+      {
+        "skillname": "WordPress",
+      },
     ],
     "portfolio":[
       {
         "name":"WildJourney",
-        "description":"First school project created with HTML5, CSS3 & Javascript",
+        "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
         "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
         "url": "https://chris356.github.io/WildJourney/index.html"
       },
       {
         "name":"Covid Escape",
-        "description":"App react created in 24hours hackathon",
+        "description":"Application React réalisée lors d'un hackaton de 24h avec pour thème 'Voyager depuis son canapé'",
         "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
         "url": "https://goofy-jones-6004d7.netlify.app/"
       },
       {
         "name":"Trizz",
-        "description":"App React, using 3 apis created in one month with a 4 persons group",  
+        "description":"Application React faisant appel à différentes API, cette application possède un quizz et la possibilité de participer à la reforestation mondiale",  
         "imgurl":"https://zupimages.net/up/20/21/vmaa.png",
         "url":"https://trizz.netlify.app/"
       },

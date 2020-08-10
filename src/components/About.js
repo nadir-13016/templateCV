@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="about">
-         <div className="row">
+        
+        <div className="row slide" id="first-slide" >
 
             <div className="three columns">
 
-            <img className="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5603AQFfh3XA7lk6JQ/profile-displayphoto-shrink_200_200/0?e=1595462400&v=beta&t=RuXpcmLRHdwTEgUas3Mxw5cOsE4w7owxiqvf5WbPADk" alt="" />
+            <img className="profile-pic one columns" src="https://media-exp1.licdn.com/dms/image/C4D35AQFfv_ALaEceIQ/profile-framedphoto-shrink_100_100/0?e=1596812400&v=beta&t=eAT987M5W_TTgT8dJzGcMOv_2SmMxoU1iZFeX25NIb4" alt="" />
 
             </div>
 
             <div className="nine columns main-col">
 
-               <h2>About Me</h2>
+               <h2>A propos</h2>
                <p>
                {
                  resumeData.aboutme
@@ -25,7 +27,7 @@ export default class About extends Component {
 
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
+                  <h2>Fiche de contact</h2>
                   <p className="address">
        						<span>{resumeData.name}</span>
                      <br></br>

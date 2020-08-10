@@ -1,5 +1,25 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import Particles from 'react-particles-js';
+import HTML5 from '../images/HTML5.png';
+import CSS3 from '../images/CSS3.png';
+import WordPress from '../images/WordPress.png';
+import JavaScript from '../images/JavaScript.png'
+import Reactl from '../images/React.png'
+import Node from '../images/Node.png'
+import MySQL from '../images/MySQL.png'
+import Python from '../images/Python.png'
+import Swift from '../images/Swift.png'
+import Scrum from '../images/Scrum.png'
+import code from '../images/capture_code.png'
+
 export default  class Resume extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+    bgimg: "vide",
+    }
+  }
+  
   render() {
     let resumeData = this.props.resumeData;
     return (
@@ -8,7 +28,7 @@ export default  class Resume extends Component {
          <div className="row education">
 
             <div className="three columns header-col">
-               <h1><span>Education</span></h1>
+               <h1><span>Formations</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -33,7 +53,7 @@ export default  class Resume extends Component {
          </div>
         <div className="row work">
             <div className="three columns header-col">
-               <h1><span>Work</span></h1>
+               <h1><span>Expériences</span></h1>
             </div>
 
             <div className="nine columns main-col">
@@ -59,39 +79,38 @@ export default  class Resume extends Component {
             </div> 
          </div>
 
-
-         <div className="row skill">
-
+        <div className={`bgcomp ${this.state.bgimg}`}>
+        <div className={`row skill `}>
+          
             <div className="three columns header-col">
-               <h1><span>Skills</span></h1>
+              <h1><span><span id="COMP">Comp</span>étences</span></h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className={`nine columns main-col`}>
 
                <p>
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+            
+   				<div className="skillsList">
 
-   				   <ul className="skills">
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
+                    const img = item.skillname === 'HTML5' ? HTML5 : item.skillname === 'CSS3' ? CSS3 : item.skillname === 'WordPress' ? WordPress : item.skillname === 'JavaScript' ? JavaScript : item.skillname === 'React' ? Reactl : item.skillname === 'Node' ? Node : item.skillname === 'MySQL' ? MySQL : item.skillname === 'Python' ? Python : item.skillname === 'Swift' ? Swift : item.skillname === 'Scrum' ? Scrum : ""
                     return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
+                      <div onMouseEnter={() => this.setState({ bgimg: item.skillname })} onMouseLeave={() => this.setState({ bgimg: "vide" })} className="skillItem">
+                        <img className='skilllogo' src={img} alt={item.skillname} />
+                        <p align='center'>{item.skillname}</p>
+                      </div>
                     )
                   })
                 }
-
-   					</ul>
+            
 
    				</div>
-
+          </div>
    			</div>
-
          </div>
 
       </section>
