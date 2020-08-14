@@ -237,7 +237,7 @@
       
    .bars { width: 100%; }
 
-
+   
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
    #call-to-action { text-align: center; }
@@ -312,6 +312,18 @@
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;
+   }
+
+   #resume h1 {
+      font: 18px/24px 'opensans-bold', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: #2B2B2B;
+      color: aliceblue;
+   }
+   #resume h1 span {
+      border-bottom: none !important;
+      
    }
 
 

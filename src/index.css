@@ -15,6 +15,7 @@ body {
 }
 
 .skillsList{
+  margin-top: 55px;
   width: 100%;
   display: flex !important;
   flex-flow: row wrap !important;
@@ -97,8 +98,10 @@ body {
   background-size: cover;
 }
 
-.WordPress #COMP {
-  color: aliceblue;
+.WordPress h1 {
+  background-color: aliceblue !important;
+  opacity: 78%;
+  border-radius: 30%;
 }
 
 .vide{
@@ -113,12 +116,34 @@ body {
 
 .bgcomp {
   border-radius: 10%;
-  -webkit-transition-duration: 0.9s;
-  -moz-transition-duration: 0.9s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
   transition-timing-function: ease-in-out;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@media only screen and (max-width: 767px) {
+  .vide{
+    background-image: url('./images/capture_blanc2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgcomp {
+    border-radius: 0;
+    background-position-x: 15%;
+    background-position-y: 12%;
+}
+  .Scrum{
+    background-size: initial;
+    background-position-y: 77%;
+  }
+
+  .JavaScript{
+    background-size: initial;
+    background-position-y: 24%;
+  }
+
 }
