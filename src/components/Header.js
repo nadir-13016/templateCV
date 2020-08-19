@@ -78,7 +78,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">Je suis <span
-                class="txt-rotate"
+                className="txt-rotate"
                 data-period="2000"
                 data-rotate={`[ "${resumeData.name}", "${resumeData.role}"]`}></span></h1>
               <h2 style={{ color: 'whitesmoke', textShadow: ' -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black', fontFamily:'sans-serif '}}><br/>{resumeData.roleDescription}

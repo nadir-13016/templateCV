@@ -120,6 +120,11 @@ body {
   transition-timing-function: ease-in-out;
 }
 
+.item-img {
+      max-height: 85%;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -144,5 +149,9 @@ code {
     background-size: initial;
     background-position-y: 24%;
   }
+
+  .item-img {
+      max-height: 360px;
+   }
 
 }

@@ -98,18 +98,21 @@ let resumeData = {
         "name":"WildJourney",
         "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
         "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
+        "imgmoburl": "https://zupimages.net/up/20/34/x0z1.png",
         "url": "https://chris356.github.io/WildJourney/index.html"
       },
       {
         "name":"Covid Escape",
         "description":"Application React réalisée lors d'un hackaton de 24h avec pour thème 'Voyager depuis son canapé'",
         "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
+        "imgmoburl": "https://zupimages.net/up/20/34/kgvm.png",
         "url": "https://goofy-jones-6004d7.netlify.app/"
       },
       {
         "name":"Trizz",
         "description":"Application React faisant appel à différentes API, cette application possède un quizz et la possibilité de participer à la reforestation mondiale",  
         "imgurl":"https://zupimages.net/up/20/21/vmaa.png",
+        "imgmoburl": "https://zupimages.net/up/20/34/zrtz.png",
         "url":"https://trizz.netlify.app/"
       },
       // {

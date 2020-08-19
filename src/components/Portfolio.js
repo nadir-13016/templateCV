@@ -6,7 +6,8 @@ export default class Porfolio extends Component {
   
   render() {
     let resumeData = this.props.resumeData;
-    
+    let width = window.innerWidth
+    console.log(width);
     return (
       <section id="portfolio">
       <div className="row">
@@ -16,10 +17,10 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div style={{ padding: 20, height: 500}}>
-                  <img style={{ height: 400, width: 'auto'}} alt={item.name} src={`${item.imgurl}`} className="item-img"/>
+                <div style={{ padding: 20, height: 510}}>
+                  <img alt={item.name} src={width <= 480 ? `${item.imgmoburl}` :`${item.imgurl}`} className="item-img"/>
                   <h5><a href={item.url} target='blank'>{item.name}</a></h5>
-                  <p>{item.description}</p>
+                  <p className='descimg'>{item.description}</p>
                 </div>
               )
             })
