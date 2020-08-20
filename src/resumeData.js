@@ -15,7 +15,7 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"https://github.com/Chris356",
+          "url":"https://github.com/christophe-turpin",
           "className":"fa fa-github"
         },
         {
