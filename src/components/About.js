@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Moi from '../images/Moi.jpeg'
+import Moi from '../images/Moi.jpeg';
+import LogoMoi from '../images/logoTranspCT.svg'
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -11,18 +12,19 @@ export default class About extends Component {
             <div className="three columns">
 
             <img className="profile-pic one columns" src={`${Moi}`} alt="moi" />
+            <img className="profile-pic one columns" src={`${LogoMoi}`} alt="logomoi" />
 
             </div>
 
-            <div className="nine columns main-col">
-
+            <div id='AboutTxt' className="nine columns main-col">
+              <div>
                <h2>A propos</h2>
                <p>
                {
                  resumeData.aboutme
                }
                </p>
-
+              </div>
                <div className="row">
 
                   <div className="columns contact-details">

@@ -206,6 +206,12 @@ ul#nav li.current a { color: #11ABB0; }
    line-height: 30px;
    color: #7A7A7A;
 }
+#about #AboutTxt {
+   min-height: 400px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: space-between !important;
+}
 #about .profile-pic {
    position: relative;
    border-radius: 100%;
