@@ -99,7 +99,7 @@ let resumeData = {
         "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
         "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
         "imgmoburl": "https://zupimages.net/up/20/34/x0z1.png",
-        "url": "https://chris356.github.io/WildJourney/index.html"
+        "url": "https://christophe-turpin.github.io/WildJourney/index.html"
       },
       {
         "name":"Covid Escape",
