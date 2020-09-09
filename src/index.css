@@ -103,13 +103,19 @@ body {
   border-radius: 30%;
 }
 
-.vide{
-  background-image: url('./images/capture_blanc.jpg');
+.Angular {
+  background-image: url('./images/capture_Angular.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.HTML5 h1, .CSS3 h1, .React h1, .Node h1, .MySQL h1 {
+.vide{
+  background-image: url('./images/capture_blanc2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HTML5 h1, .CSS3 h1, .React h1, .Node h1, .MySQL h1, .Angular h1 {
   color: aliceblue;
 }
 
@@ -151,7 +157,7 @@ code {
   }
 
   .item-img {
-      max-height: 360px;
+      max-height: 400px;
    }
 
 }

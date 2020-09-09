@@ -84,6 +84,9 @@ let resumeData = {
         "skillname": "Scrum",
       },
       {
+        "skillname": "Angular",
+      },
+      {
         "skillname": "Python",
       },
       {
@@ -115,11 +118,13 @@ let resumeData = {
         "imgmoburl": "https://zupimages.net/up/20/34/zrtz.png",
         "url":"https://trizz.netlify.app/"
       },
-      // {
-      //   "name":"project4",
-      //   "description":"mobileapp",
-      //   "imgurl":"images/portfolio/phone.jpg"
-      // }
+      {
+        "name":"Marche Rose Combourg",
+        "description":"Page internet d'information, et réservation à l'occasion de la marche contre le cancer organisée par le Rotary Club de Combourg(35).",
+        "imgurl": "https://zupimages.net/up/20/37/81yi.png",
+        "imgmoburl": "https://zupimages.net/up/20/37/vit2.png",
+        "url": "https://marche-rose-combourg2020.netlify.app/"
+      }
     ],
     "testimonials":[
       {

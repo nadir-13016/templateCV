@@ -9,6 +9,7 @@ import MySQL from '../images/MySQL.png'
 import Python from '../images/Python.png'
 import Swift from '../images/Swift.png'
 import Scrum from '../images/Scrum.png'
+import Angular from '../images/Angular.svg'
 
 export default  class Resume extends Component {
   constructor(props){
@@ -90,7 +91,7 @@ export default  class Resume extends Component {
 
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
-                    const img = item.skillname === 'HTML5' ? HTML5 : item.skillname === 'CSS3' ? CSS3 : item.skillname === 'WordPress' ? WordPress : item.skillname === 'JavaScript' ? JavaScript : item.skillname === 'React' ? Reactl : item.skillname === 'Node' ? Node : item.skillname === 'MySQL' ? MySQL : item.skillname === 'Python' ? Python : item.skillname === 'Swift' ? Swift : item.skillname === 'Scrum' ? Scrum : ""
+                    const img = item.skillname === 'HTML5' ? HTML5 : item.skillname === 'CSS3' ? CSS3 : item.skillname === 'WordPress' ? WordPress : item.skillname === 'JavaScript' ? JavaScript : item.skillname === 'React' ? Reactl : item.skillname === 'Node' ? Node : item.skillname === 'MySQL' ? MySQL : item.skillname === 'Python' ? Python : item.skillname === 'Swift' ? Swift : item.skillname === 'Scrum' ? Scrum : item.skillname === 'Angular' ? Angular :""
                     return(
                       <div onMouseEnter={() => this.setState({ bgimg: item.skillname })} onMouseLeave={() => this.setState({ bgimg: "vide" })} className="skillItem">
                         <img className='skilllogo' src={img} alt={item.skillname} />
