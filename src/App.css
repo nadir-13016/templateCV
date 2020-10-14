@@ -18,15 +18,10 @@
   color: white;
 }
 
-.item-img {
-  max-width: 80% !important;
-}
-
 .profile-pic {
   width: 50px !important;
   height: 50px !important;
 }
-
 
 .App-link {
   color: #61dafb;
