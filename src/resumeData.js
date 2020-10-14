@@ -98,18 +98,18 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"WildJourney",
-        "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
-        "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
-        "imgmoburl": "https://zupimages.net/up/20/34/x0z1.png",
-        "url": "https://christophe-turpin.github.io/WildJourney/index.html"
+        "name":"Marche Rose Combourg",
+        "description":"Page internet d'information, et réservation à l'occasion de la marche contre le cancer organisée par le Rotary Club de Combourg(35).",
+        "imgurl": "https://zupimages.net/up/20/37/81yi.png",
+        "imgmoburl": "https://zupimages.net/up/20/37/vit2.png",
+        "url": "https://marche-rose-combourg2020.netlify.app/"
       },
       {
-        "name":"Covid Escape",
-        "description":"Application React réalisée lors d'un hackaton de 24h avec pour thème 'Voyager depuis son canapé'",
-        "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
-        "imgmoburl": "https://zupimages.net/up/20/34/kgvm.png",
-        "url": "https://goofy-jones-6004d7.netlify.app/"
+        "name":"STORPE",
+        "description":"PApplication web de paris sportifs communautaires.",
+        "imgurl": "https://zupimages.net/up/20/42/6mgf.png",
+        "imgmoburl": "https://zupimages.net/up/20/42/kchu.png",
+        "url": "https://www.storpe.club/"
       },
       {
         "name":"Trizz",
@@ -119,12 +119,19 @@ let resumeData = {
         "url":"https://trizz.netlify.app/"
       },
       {
-        "name":"Marche Rose Combourg",
-        "description":"Page internet d'information, et réservation à l'occasion de la marche contre le cancer organisée par le Rotary Club de Combourg(35).",
-        "imgurl": "https://zupimages.net/up/20/37/81yi.png",
-        "imgmoburl": "https://zupimages.net/up/20/37/vit2.png",
-        "url": "https://marche-rose-combourg2020.netlify.app/"
-      }
+        "name":"Covid Escape",
+        "description":"Application React réalisée lors d'un hackaton de 24h avec pour thème 'Voyager depuis son canapé'",
+        "imgurl": "https://zupimages.net/up/20/21/w1yb.png",
+        "imgmoburl": "https://zupimages.net/up/20/34/kgvm.png",
+        "url": "https://goofy-jones-6004d7.netlify.app/"
+      },
+      {
+        "name":"WildJourney",
+        "description":"Premier projet d'étude réalisé avec HTML5, CSS3 & Javascript",
+        "imgurl":"https://zupimages.net/up/20/21/6cv4.png", 
+        "imgmoburl": "https://zupimages.net/up/20/34/x0z1.png",
+        "url": "https://christophe-turpin.github.io/WildJourney/index.html"
+      },
     ],
     "testimonials":[
       {

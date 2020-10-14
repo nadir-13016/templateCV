@@ -10,7 +10,7 @@
     "react-particle-image": "^1.0.1",
     "react-particles-js": "^2.7.1",
     "react-responsive-carousel": "^3.2.9",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^3.4.3",
     "react-tsparticles": "^1.17.6"
   },
   "scripts": {
