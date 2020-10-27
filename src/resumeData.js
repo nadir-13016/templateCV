@@ -4,9 +4,9 @@ let resumeData = {
     "name": "Nadir ABDELOUAHAB",
   "role": "Développeur web et mobile fullstack junior",
     "linkedinId":"nadir-abdelouahab",
-    "skypeid": "Your skour LinkedIn Idypeid",
-    "roleDescription": "Présentant une certaine appétance pour le front-end je reste à l'aise en back-end et cherche surtout à monter en compétences afin de pouvoir mener un maximum de projets à leur terme",
-    "blockchain" :"Blockchain enthusiaste",
+    // "skypeid": "Your skour LinkedIn Idypeid",
+    "roleDescription": "Jeune développeur Full-Stack je cherche  je suis à la recherche d'une entreprise souhaitant recruter un Jeune Dev Junior, ou un Alternant",
+    // "blockchain" :"Blockchain enthusiaste",
     "socialLinks":[
         {
           "name":"linkedin",
