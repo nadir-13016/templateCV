@@ -13,15 +13,15 @@ export default class ContactUs extends Component {
     const { name, email, subject, message } = this.state
     let templateParams = {
       from_name: `${name}, ${email}`,
-      to_name: 'daisukeleblonx@gmail.com',
+      to_name: 'abdelouahab.com@gmail.com',
       subject: subject,
       message_html: message,
     }
     emailjs.send(
       'gmail',
-      'template_6gZTJ4oN',
+      'template_5S23xEq5',
       templateParams,
-      'user_A36dpAU6B7XJQ6rXxh5j0'
+      'user_wHODNw20rTtBop0uD3uR1'
     )
     this.resetForm()
     alert('Votre message a bien été envoyé')

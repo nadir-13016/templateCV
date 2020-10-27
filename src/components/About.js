@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Moi from '../images/Moi.jpeg';
+import Nadir from '../images/Nadir.png';
 import LogoMoi from '../images/logoTranspCT.svg'
 export default class About extends Component {
   render() {
@@ -11,8 +11,8 @@ export default class About extends Component {
 
             <div className="three columns">
 
-            <img className="profile-pic one columns" src={`${Moi}`} alt="moi" />
-            <img className="profile-pic one columns" src={`${LogoMoi}`} alt="logomoi" />
+            <img className="profile-pic one columns" src={`${Nadir}`} alt="moi" />
+   
 
             </div>
 
