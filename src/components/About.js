@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Nadir from '../images/Nadir.png';
-import LogoMoi from '../images/logoTranspCT.svg'
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
