@@ -85,10 +85,7 @@ let resumeData = {
       // },
       {
         "skillname": "Swift",
-      },
-      {
-        "skillname": "WordPress",
-      },
+      }
     ],
     "portfolio":[
       // {
